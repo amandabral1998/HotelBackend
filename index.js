@@ -6,7 +6,7 @@ const router = require('./controller/main')
 
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://hotelmern.netlify.app',
     credentials: true, 
   }));
 app.use(express.json())
